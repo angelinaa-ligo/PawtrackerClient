@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../styleS/OrgNavBar.css";
+import "../styles/orgNavBar.css";
 
 export default function OrgNavBar() {
 
