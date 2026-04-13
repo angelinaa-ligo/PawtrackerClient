@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import AdminNavBar from "../../components/AdminNavBar";
-import "../../styles/ModerateAdoptions.css";
+import "../../styles/moderateAdoptions.css";
 
 export default function ModerateAdoptions() {
 
