@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import AdminNavBar from "../../components/AdminNavBar";
-import "../../styles/ManageAccounts.css";
+import "../../styles/manageAccounts.css";
 
 export default function ManageAccounts() {
   const [editingRole, setEditingRole] = useState(null);
