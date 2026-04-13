@@ -1,0 +1,175 @@
+/* WRAPPER TOTAL (igual settings) */
+.profile-page {
+  min-height: 100vh;
+  margin-top: 32px;
+  padding-top: 10px;
+ min-width: 1080px;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+/* LIGHT MODE */
+.profile-page.light {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+/* DARK MODE */
+.profile-page.dark {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+/* CONTAINER CENTRAL */
+.profile-container {
+  padding: 30px;
+  width: 800px;
+  margin: auto;
+  background: transparent; /* 🔥 igual settings (sem card externo) */
+}
+
+/* HEADER */
+.profile-header h1 {
+  margin-bottom: 5px;
+}
+
+.profile-header p {
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+/* CARD INTERNO (formulário) */
+.profile-page.light .settings {
+  background: #ffffff;
+  color: #1e293b;
+}
+
+.profile-page.dark .settings {
+  background: #1e293b;
+  color: #f1f5f9;
+}
+
+.settings {
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  text-align: left;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* FORM */
+.settings-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* INPUTS */
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* LIGHT INPUT */
+.profile-page.light input {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #000;
+}
+
+/* DARK INPUT */
+.profile-page.dark input {
+  background-color: #334155;
+  border: 1px solid #475569;
+  color: #fff;
+}
+
+/* SECURITY FIELD */
+.security-question-display {
+  background-color: #eee;
+}
+
+.profile-page.dark .security-question-display {
+  background-color: #475569;
+}
+
+/* BUTTON */
+.profile-container button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* BUTTON LIGHT */
+.profile-page.light button {
+  background-color: #e2e8f0;
+  color: black;
+}
+
+/* BUTTON DARK */
+.profile-page.dark button {
+  background-color: #334155;
+  color: white;
+}
+
+/* ERROR */
+.error-text {
+  color: red;
+  font-size: 12px;
+}
+
+/* MESSAGE */
+.message-banner {
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* SUCCESS */
+.message-banner.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+/* ERROR */
+.message-banner.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.close-message {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.profile-page.light h1,
+.profile-page.light h3,
+.profile-page.light p,
+.profile-page.light label {
+  color: #1e293b;
+}
+
+/* TEXTOS - DARK */
+.profile-page.dark h1,
+.profile-page.dark h3,
+.profile-page.dark p,
+.profile-page.dark label {
+  color: #f1f5f9;
+}

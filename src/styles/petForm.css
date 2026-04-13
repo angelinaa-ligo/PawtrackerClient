@@ -1,0 +1,139 @@
+/* ========================================= */
+/* CONTAINER */
+/* ========================================= */
+
+/* LIGHT */
+.pet-page-wrapper.light .pet-form-container {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+/* DARK */
+.pet-page-wrapper.dark .pet-form-container {
+  background: #0f172a;
+  border: 1px solid #334155;
+}
+
+.pet-form-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+
+/* ========================================= */
+/* TITLE */
+/* ========================================= */
+
+.pet-page-wrapper.light h2 {
+  color: #1e293b;
+}
+
+.pet-page-wrapper.dark h2 {
+  color: #f1f5f9;
+}
+
+
+/* ========================================= */
+/* FORM */
+/* ========================================= */
+
+/* LIGHT */
+.pet-page-wrapper.light .pet-form {
+  background: white;
+  border: 1px solid #e2e8f0;
+}
+
+/* DARK */
+.pet-page-wrapper.dark .pet-form {
+  background: #1e293b;
+  border: 1px solid #334155;
+}
+
+.pet-form {
+  display: grid;
+  gap: 1.2rem;
+  padding: 2rem;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+
+/* ========================================= */
+/* INPUTS */
+/* ========================================= */
+
+/* LIGHT */
+.pet-page-wrapper.light .pet-form input,
+.pet-page-wrapper.light .pet-form select {
+  background: #f8fafc;
+  color: #1e293b;
+  border: 1px solid #e2e8f0;
+}
+
+/* DARK */
+.pet-page-wrapper.dark .pet-form input,
+.pet-page-wrapper.dark .pet-form select {
+  background: #0f172a;
+  color: #f1f5f9;
+  border: 1px solid #334155;
+}
+
+.pet-form input,
+.pet-form select {
+  padding: 0.9rem;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.pet-form input:focus,
+.pet-form select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+
+/* ========================================= */
+/* LABELS */
+/* ========================================= */
+
+.pet-page-wrapper.light label {
+  color: #475569;
+}
+
+.pet-page-wrapper.dark label {
+  color: #cbd5f5;
+}
+
+
+/* ========================================= */
+/* BUTTONS */
+/* ========================================= */
+
+/* LIGHT */
+.pet-page-wrapper.light button {
+  background-color: #e2e8f0;
+  color: #1e293b;
+}
+
+/* DARK */
+.pet-page-wrapper.dark button {
+  background-color: #334155;
+  color: #f1f5f9;
+}
+
+.pet-form-container button {
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.pet-form button:hover {
+  transform: translateY(-2px);
+}

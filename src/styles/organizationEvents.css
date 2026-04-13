@@ -1,0 +1,248 @@
+/* ========================================= */
+/* WRAPPER IGUAL SETTINGS */
+/* ========================================= */
+
+.events-page {
+  min-height: 100vh;
+  margin-top: 32px;
+  padding-top: 10px;
+  min-width: 1080px;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+/* LIGHT MODE */
+.events-page.light {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+/* DARK MODE */
+.events-page.dark {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+/* BOTÕES */
+.events-container button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.events-page.light button {
+  background-color: #e2e8f0;
+  color: black;
+}
+
+.events-page.dark button {
+  background-color: #334155;
+  color: white;
+}
+
+/* TEXTOS */
+.events-page.light h1,
+.events-page.light h2,
+.events-page.light h3,
+.events-page.light p,
+.events-page.light strong {
+  color: #1e293b;
+}
+
+.events-page.dark h1,
+.events-page.dark h2,
+.events-page.dark h3,
+.events-page.dark p,
+.events-page.dark strong {
+  color: #f1f5f9;
+}
+
+/* ========================================= */
+/* SEU CSS ORIGINAL (MANTIDO) */
+/* ========================================= */
+
+.campaign-wrapper {
+  min-width: 1000px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  min-height: 100vh;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dee2e6;
+}
+
+.campaign-wrapper .org-navbar {
+  margin-bottom: 2rem;
+}
+
+.campaign-stats {
+  margin-bottom: 3rem;
+}
+
+.campaign-stats h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  margin-left: 290px;
+}
+
+.campaign-create-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.campaign-create-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.campaign-create-btn:hover {
+  background: #218838;
+  transform: translateY(-1px);
+}
+
+.stats-card {
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.stats-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.stat-active {
+  border-left: 4px solid #28a745;
+}
+
+.stat-in-active {
+  border-left: 4px solid #dc3545;
+}
+
+.campaign-section {
+  margin-bottom: 3rem;
+}
+
+.campaign-section h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.campaign-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  align-items: center; 
+}
+
+.campaign-card {
+  border-radius: 16px;
+  padding: 1.5rem;
+  border: 1px solid #e9ecef;
+  position: relative;
+}
+
+.campaign-card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.campaign-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.status-true {
+  background: #28a745;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.status-false {
+  background: #dc3545;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.campaign-detail p {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.campaign-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  padding-top: 1rem;
+}
+
+.campaign-action {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ========================================= */
+/* OVERRIDE PRA FICAR IGUAL SETTINGS */
+/* ========================================= */
+
+/* REMOVE O "CARD GIGANTE" */
+.events-page .campaign-wrapper {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* CARDS LIGHT */
+.events-page.light .stats-card,
+.events-page.light .campaign-card {
+  background: #ffffff;
+  border-color: #e2e8f0;
+}
+
+/* CARDS DARK */
+.events-page.dark .stats-card,
+.events-page.dark .campaign-card {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+/* DIVISÕES DARK */
+.events-page.dark .campaign-card-header,
+.events-page.dark .campaign-actions {
+  border-color: #334155;
+}

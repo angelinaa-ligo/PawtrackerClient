@@ -1,0 +1,150 @@
+/* ========================================= */
+/* WRAPPER */
+/* ========================================= */
+
+.adoption-page {
+  min-height: 100vh;
+  margin-top: 32px;
+  padding-top: 10px;
+  min-width: 1080px;
+  transition: all 0.3s ease;
+}
+
+/* LIGHT */
+.adoption-page.light {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+/* DARK */
+.adoption-page.dark {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+/* ========================================= */
+/* CONTAINER */
+/* ========================================= */
+
+.adoption-container {
+  padding: 30px;
+  width: 1000px;
+  margin: auto;
+}
+
+/* ========================================= */
+/* GRID */
+/* ========================================= */
+
+.animals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+/* ========================================= */
+/* CARD */
+/* ========================================= */
+
+.animal-card-wrapper {
+  border-radius: 12px;
+  padding: 15px;
+  border: 1px solid;
+  transition: 0.3s;
+}
+
+/* LIGHT */
+.adoption-page.light .animal-card-wrapper {
+  background: #ffffff;
+  border-color: #e2e8f0;
+}
+
+/* DARK */
+.adoption-page.dark .animal-card-wrapper {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+/* ========================================= */
+/* BUTTONS (SEM VAZAR) */
+/* ========================================= */
+
+.animal-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.adoption-container button {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* LIGHT */
+.adoption-page.light .animal-actions button {
+  background-color: #e2e8f0;
+  color: black;
+}
+
+/* DARK */
+.adoption-page.dark .animal-actions button {
+  background-color: #334155;
+  color: white;
+}
+
+/* STATUS */
+.btn-adopt.pending {
+  background-color: #ccc !important;
+  color: #555 !important;
+  cursor: not-allowed;
+}
+
+/* ========================================= */
+/* PROCESS */
+/* ========================================= */
+
+.process-section {
+  margin-top: 60px;
+}
+
+.process-steps {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.step {
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 220px;
+  text-align: center;
+  border: 1px solid;
+}
+
+/* LIGHT */
+.adoption-page.light .step {
+  background: #ffffff;
+  border-color: #e2e8f0;
+}
+
+/* DARK */
+.adoption-page.dark .step {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+/* STEP NUMBER */
+.step-number {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #ffffff;
+  font-weight: bold;
+}
